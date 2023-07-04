@@ -13,6 +13,6 @@ About machine learning models, we use three algorithms that are ARIMA, Support V
 
 Before using algorithms to train model, we created data preprocessing, cleaning, and visualization for easier implementation.
 
-In ARIMA .....
+In ARIMA model, we apply some test statistics to check if data is stationary or not, and then choose the parameters to train and evaluate model.
 
 In folder SVR and XGBoost, we try to  model selection and choose optimal hyperparameters by using Nested Cross Validation Time Series (Predict-Second-Half and Day-Forward-Chaining). After that, we use that hyperparameters to retrain, evaluate model and predict price of stocks.
