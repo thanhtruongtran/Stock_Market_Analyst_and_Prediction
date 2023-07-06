@@ -40,7 +40,7 @@ warnings.filterwarnings("ignore")
 # In[2]:
 
 
-df = pd.read_csv('C:/Users/Admin/Desktop/Capstone-Project-ML/Dataset/construction/PTC.csv', sep='\t', index_col=0)
+df = pd.read_csv('C:/Users/Admin/Desktop/Capstone-Project-ML/Dataset/construction/LCS.csv', sep='\t', index_col=0)
 
 
 # In[3]:
